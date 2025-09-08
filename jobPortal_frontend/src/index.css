@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #ede9fe, #dbeafe, #cffafe);
+  color: #1f2937;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
